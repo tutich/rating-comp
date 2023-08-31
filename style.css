@@ -1,10 +1,92 @@
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 body {
     background: hsl(216, 12%, 8%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: medium;
 }
 section {
     background: hsl(213, 19%, 18%);
-    width: 50%;
+    border-radius: 1rem;
+    width: 375px;
+    padding: 1rem;
+}
+.rating {
+   
+}
+#star {
+    width: fit-content;
+    display: flex;
+    padding: 1rem;
+    background-color: hsl(213, 17%, 16%);
+    border-radius: 50%;
+}
+input {
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 2rem;
+}
+.rate h2 {
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+}
+.rate p {
+    color: hsl(216, 12%, 54%);
+    text-align: left;
+}
+.thanks p {
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    padding: 1rem;
+}
+.thanks h2 {
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    text-align: center;
+}
+#thank {
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+#select {
+    margin: 1rem auto;
+    background-color: hsl(213, 17%, 16%);
+    width: fit-content;
+    color: hsl(25, 97%, 53%);
+    font-size: 14px;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    align-items: center;
+}
+#container span {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 17%, 16%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
