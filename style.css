@@ -2,5 +2,9 @@ html {
     font-size: 10px;
 }
 body {
-    
+    background: hsl(216, 12%, 8%);
+}
+section {
+    background: hsl(213, 19%, 18%);
+    width: 50%;
 }
