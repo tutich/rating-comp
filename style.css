@@ -27,7 +27,7 @@ section {
     background-color: hsl(213, 17%, 16%);
     border-radius: 50%;
 }
-input {
+.sub{
     background: hsl(25, 97%, 53%);
     cursor: pointer;
     width: 100%;
@@ -93,9 +93,10 @@ input {
 span:hover {
  color: hsl(25, 97%, 53%);
 }
-.thank-you {
-    visibility: hidden;
-}
+
 .checked {
     color: orangered;
+}
+.hidden {
+    display: none;
 }

@@ -1,6 +1,8 @@
 const cont = document.querySelectorAll(".container");
 const sub = document.querySelector(".sub")
-const thank = document.querySelector(".thank-you");
+const thank_section = document.querySelector(".thank_section");
+const rating_section = document.querySelector(".rating_section");
+const rate_point = document.getElementById("rate");
 
 let rate = null;
 
@@ -18,5 +20,10 @@ rate = e.target.innerText;
 
 
 sub.addEventListener("click", function(){
-    console.log("container")
-})
+   if(rate) {
+    rate_point.innerText = rate;
+    rating_section.classList.add("hidden");
+    thank_section.classList.remove("hidden");
+   }
+    
+});
